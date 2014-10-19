@@ -61,6 +61,15 @@
                                     <rect key="frame" x="16" y="87" width="334" height="70"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teG-AP-GVL">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="186" width="226" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="0FD-4Z-9k7"/>
                                 <exclude reference="Ko7-Be-req"/>
                                 <exclude reference="iFM-tv-JTk"/>
+                                <exclude reference="teG-AP-GVL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="0FD-4Z-9k7"/>
                                 <include reference="Ko7-Be-req"/>
                                 <include reference="iFM-tv-JTk"/>
+                                <include reference="teG-AP-GVL"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="wBJ-3o-wpp" id="ANY-dN-Jms"/>
                         <outlet property="mailButton" destination="Ko7-Be-req" id="c0M-ez-9NA"/>
                         <outlet property="messageLabel" destination="iFM-tv-JTk" id="1J2-od-oit"/>
+                        <outlet property="nameLabel" destination="teG-AP-GVL" id="N7S-J9-qDv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
